@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Didact Gothic', sans-serif;
+}
+
+.current-location, .n-season {
+   cursor: pointer;
+   color: orange;
+   background-color: rgba(255, 166, 0, 0.05);
+}
+
+.unknown-location {
+   text-decoration: none;
+   color: #CBD3D3;
+   background-color: transparent;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   background-color: #090D0C;
+   height: 3000px;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   padding: 1rem;
+   background-color: #0d0909;
+   border-bottom: solid 2px #CBD3D3;
+   color: #CBD3D3;
+   font-size: 3em;
+   z-index: 1;
+}
+
+.container {
+   display: flex;
+   flex-grow: 1;
+   background-image: url("https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg");
+   background-size: contain;
+}
+
+aside {
+   width: 250px;
+   background-color: #0d0909;
+}
+
+main {
+   margin: 30px;
+   padding: 1rem;
+   background-color: rgba(0, 0, 0, 0.9);
+   color: #CBD3D3;
+   flex-grow: 1;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-auto-rows: min-content;
+   grid-row-gap: 100px;
+   justify-content: center;
+}
+
+.card {
+   padding: 10px;
+   width: 100%;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   gap: 10px;
+}
+
+.card img {
+   width: 100%;
+   aspect-ratio: 1;
+   border: solid 2px #CBD3D3;
+}
+
+.dead-text {
+   color: red;
+   position: absolute;
+   top: 10px;
+   right: 1em;
+   font-weight: bold;
+}
+
+.char-name {
+   font-size: 1.3rem;
+}
+
+.char-species {
+   color: rgb(40, 196, 19);
+}
+
+.char-gender {
+   color: rgb(255, 71, 25);
+}
+
+.char-type {
+   font-style: italic;
+}
+
+.n-season {
+   cursor: pointer;
+   position: relative;
+}
+
+.episode-box{
+   position: absolute;
+   top: 0;
+   left: 0;
+   display: none;
+   background-color: rgba(0, 0, 0, 0.9);
+   color: #CBD3D3;
+   z-index: 1;
+}
