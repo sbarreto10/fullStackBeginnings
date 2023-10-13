@@ -1,4 +1,4 @@
-# fullStackBeginnings(google.com)
+# fullStackBeginnings
 
 ## RickAndMortyAPI => Archivos necesarios para crear una aplicación web simple que muestra detalles de personajes aleatorios de la serie "Rick and Morty" utilizando una API.
 ## addictionary => Simple diccionario web interactivo que utiliza una API para buscar definiciones de palabras.
